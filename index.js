@@ -3,7 +3,8 @@
 console.log('Loading function');
 
 exports.handler = (event, context, callback) => {
-    callback(null, "Hello World! from Lambda AWS.");
+	console.log('Learning Lambda!!!');
+	callback(null, "Hello World! from Lambda AWS.");
 };
 
 //This simple javascript returns Hello World! to the requester.

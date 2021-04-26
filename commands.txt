@@ -1,0 +1,18 @@
+#AWS cli setup
+
+aws configure
+aws s3 ls
+
+
+#First command will setup aws cli with access-keys
+#The default profile will be setup. Careful!
+#Do not put access-keys in github or any other cloud service
+
+#Setup profiles in aws cli then execute commands specifying the profile like this:
+aws s3 ls --profile myprofile
+
+#You can setup profile in a shell environment variable like this:
+export AWS_PROFILE=user1
+
+ 
+
